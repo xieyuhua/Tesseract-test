@@ -7,7 +7,7 @@
 众所周知，Tesseract在处理中文文本时识别效果相对较弱，但在其他语言的识别上表现出色。为了弥补这一不足，我们对该中文语言包进行了多次训练和优化，使其在中文识别的准确性和稳定性上有了显著提升。   
 
 ## 使用方法   
-下载本仓库中的chi_sim语言包文件。   
+下载本仓库中的chi_sim https://tesseract-ocr.github.io/tessdoc/Data-Files 语言包文件。   
 将下载的语言包文件放置在Tesseract的tessdata目录下。   
 在Tesseract的配置中选择使用chi_sim语言包进行中文文本识别。   
 ## 注意事项   
