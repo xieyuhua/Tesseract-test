@@ -3,6 +3,14 @@
 ## 介绍   
 本仓库提供了一个经过多次训练的Tesseract中文语言包，文件名为chi_sim。该语言包在识别效果上显著优于网上常见的17M或40M版本，能够大幅提升Tesseract在中文文本识别方面的性能。   
 
+```
+from PIL import Image
+import pytesseract
+img = Image.open('e697fd2b588d3a08d69b32f45da6965.png')
+text = pytesseract.image_to_string(img,  lang='chi_sim')
+print(text)
+```
+
 ## 资源文件描述   
 众所周知，Tesseract在处理中文文本时识别效果相对较弱，但在其他语言的识别上表现出色。为了弥补这一不足，我们对该中文语言包进行了多次训练和优化，使其在中文识别的准确性和稳定性上有了显著提升。   
 
